@@ -8,8 +8,12 @@ const advancedResults = (model, populate) => async (req, res, next) => {
     // lets remove these
     toRemove.forEach(item => delete reqQuery[item]);
 
+    let queryStr = JSON.stringify(reqQuery);
+
+    queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, match => `$${match}`);
+
     //form first part of query
-    query = model.find(reqQuery);
+    query = model.find(JSON.parse(queryStr));
 
     // chain the methods corresponding to the removed item
     // select
