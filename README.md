@@ -1,14 +1,45 @@
 # Financial Institutions in Nepal
 
-> Simple **REST API** for financial institution CRUD.
+> Simple **REST API** for financial institution CRUD and more.
 > Made using **Nodejs (Express js)** and **MongoDB (mongoose.js)**
 
-###### Some Features
+## Usage
+Rename config/config.env.env to config/config.env and update the settings values of your own
+
+#### Install Dependencies
+```
+npm install
+```
+
+#### Run App
+```
+# In development mode
+npm run dev
+
+#In production mode
+npm start
+```
+
+#### Database Seeder
+To seed your database with the data in data folder, run
+
+```
+# To import data
+node seeder -i
+
+# To delete data
+node seeder -d
+```
+***
+#### Basic Features
 * Category create, update, read and delete
 * Add banks by category
 * Get all banks in a category
 * Bank read, update and delete
 * Upload logo for banks
+
+#### More Features
+
 * *Custom error handling with asynchronous middleware*
 * *Custom validation* in mongoose schema
 * Advanced results supported for reading bank information
@@ -41,5 +72,11 @@
 * *Populate and reverse populate using virtuals*
 * *Automatic Slug* genetation using mongoose *pre hook*
 * *Regular Expression* for email and url validation
-* *Serving Static folders* feature for logos
+* *Serving Static files* feature for logos
 
+***
+#### Demo
+Simple Documentation [here](https://surojmaharjan0.github.io/financial_institutions/)
+Extensive Documentation with example [here](https://documenter.getpostman.com/view/7716156/SztG35yR)
+* Version **1.0**
+* Author **Suroj Maharjan**
