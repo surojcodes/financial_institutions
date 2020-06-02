@@ -1,0 +1,31 @@
+{
+  "name": "nepal_banks",
+  "version": "1.0.0",
+  "description": "REST API to add and retrieve bank data in Nepal",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surojmaharjan0/nepal_banks.git"
+  },
+  "author": "Mr Suroj Maharjan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surojmaharjan0/nepal_banks/issues"
+  },
+  "homepage": "https://github.com/surojmaharjan0/nepal_banks#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "mongoose": "^5.9.16",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

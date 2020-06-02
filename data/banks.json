@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Nepal Bank Ltd.",
+        "emails": [
+            "info@nepalbank.com.np",
+            "gunaso@nepalbank.com.np"
+        ],
+        "website": "https://www.nepalbank.com.np/",
+        "contact": [
+            "4247999",
+            "4239888"
+        ],
+        "socials": {
+            "facebook": "https://www.facebook.com/nepalbankltd",
+            "twitter": "https://twitter.com/nepalbank",
+            "instagram": "https://www.instagram.com/nbl"
+        },
+        "head_office": "Dharmapath, Kathmandu",
+        "category": "5ed230e42e7b5b0ea8c01ef0"
+    },
+    {
+        "name": "Rastriya Banijya Bank Ltd.",
+        "emails": [
+            "rbb.info@rbb.com.np",
+            "intlbkng@rbb.com.np"
+        ],
+        "website": "https://www.rbb.com.np/index.php",
+        "contact": [
+            "4252595",
+            "4252931"
+        ],
+        "head_office": "Singhadurbarplaza, Kathmandu",
+        "category": "5ed230e42e7b5b0ea8c01ef0"
+    },
+    {
+        "name": "Agriculture Development Bank Ltd.",
+        "emails": [
+            "info@adbl.gov.np"
+        ],
+        "website": "https://www.adbl.gov.np/",
+        "contact": [
+            "16600111110",
+            "4262605",
+            "4219243",
+            "4252359",
+            "4252360",
+            "4262596",
+            "4262559",
+            "4262756"
+        ],
+        "head_office": "Ramshahpath, Kathmandu",
+        "category": "5ed230e42e7b5b0ea8c01ef0"
+    },
+    {
+        "name": "Nabil Bank Ltd.",
+        "emails": [
+            "customercare@nabilbank.com"
+        ],
+        "website": "https://nabilbank.com/",
+        "contact": [
+            "5970015"
+        ],
+        "head_office": "Beena Marg, Kathmandu",
+        "category": "5ed230e42e7b5b0ea8c01ef0"
+    },
+    {
+        "name": "Sahayogi Vikas Bank Ltd.",
+        "website": "http://www.sahayogibank.com.np/",
+        "contact": [
+            "525972"
+        ],
+        "head_office": "Janakpurdham,Dhanusha",
+        "category": "5ed230e42e7b5b0ea8c01ef1"
+    },
+    {
+        "name": "Karnali Bikash Bank Ltd.",
+        "emails": [
+            "info@kdblnepal.com"
+        ],
+        "website": "http://www.sahayogibank.com.np/",
+        "contact": [
+            "415040",
+            "415074"
+        ],
+        "head_office": "Nepalgunj, Banke",
+        "category": "5ed230e42e7b5b0ea8c01ef1"
+    },
+    {
+        "name": "Nepal Finance Ltd.",
+        "emails": [
+            "mail@nefinsco.com"
+        ],
+        "website": "http://www.nefinsco.com/",
+        "contact": [
+            "4241237",
+            "4247020"
+        ],
+        "head_office": "Kamaladi, Kathmandu",
+        "category": "5ed230e42e7b5b0ea8c01ef2"
+    }
+]
