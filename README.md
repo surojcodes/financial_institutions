@@ -73,6 +73,15 @@ node seeder -d
 * *Automatic Slug* genetation using mongoose *pre hook*
 * *Regular Expression* for email and url validation
 * *Serving Static files* feature for logos
+***
+#### Security Features
+* NoSQL injection secure
+* Security headers has been added
+* Cross-site scripting(XSS) secure
+* Rate Limit has been set
+  * An IP can request upto 100 times within 10 min
+* Cross-Origin Resource Sharing (CORS) enabled
+* HTTP Param Pollution prevented
 
 ***
 #### Demo
