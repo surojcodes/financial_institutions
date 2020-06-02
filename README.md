@@ -6,12 +6,12 @@
 ## Usage
 Rename config/config.env.env to config/config.env and update the settings values of your own
 
-#### Install Dependencies
+## Install Dependencies
 ```
 npm install
 ```
 
-#### Run App
+## Run App
 ```
 # In development mode
 npm run dev
@@ -20,7 +20,7 @@ npm run dev
 npm start
 ```
 
-#### Database Seeder
+## Database Seeder
 To seed your database with the data in data folder, run
 
 ```
@@ -31,14 +31,14 @@ node seeder -i
 node seeder -d
 ```
 ***
-#### Basic Features
+## Basic Features
 * Category create, update, read and delete
 * Add banks by category
 * Get all banks in a category
 * Bank read, update and delete
 * Upload logo for banks
 
-#### More Features
+## More Features
 
 * *Custom error handling with asynchronous middleware*
 * *Custom validation* in mongoose schema
@@ -74,7 +74,7 @@ node seeder -d
 * *Regular Expression* for email and url validation
 * *Serving Static files* feature for logos
 ***
-#### Security Features
+## Security Features
 * NoSQL injection secure
 * Security headers has been added
 * Cross-site scripting(XSS) secure
@@ -84,7 +84,7 @@ node seeder -d
 * HTTP Param Pollution prevented
 
 ***
-#### Demo
+## Demo
 Simple Documentation [here](https://surojmaharjan0.github.io/financial_institutions/)
 Extensive Documentation with example [here](https://documenter.getpostman.com/view/7716156/SztG35yR)
 * Version **1.0**
